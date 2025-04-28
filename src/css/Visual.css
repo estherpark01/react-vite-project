@@ -1,0 +1,37 @@
+.visual{height:auto;}
+.mySwiper1 {height: 100%;width: 100%;
+    touch-action: pan-y;
+}
+.mySwiper1 .link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.mySwiper1 .link img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;}
+
+.mySwiper1 .link span{
+    position: absolute; left: 50%; top: 45%; transform: translateX(-50%);
+    font-size: 1.3rem; color: #fff; line-height: 1.6rem;
+    text-align: center; font-weight: 500;
+    font-family: "Noto Serif TC", serif; 
+}
+.mySwiper1 .link span strong{font-size: 1.6rem;  line-height: 3rem;}
+.mySwiper1 .link span:nth-of-type(2){
+    left: 50%; top: 52%;
+}
+
+.swiper-container .swiper-button-prev,
+.swiper-container .swiper-button-next
+{color: #fff;}
+
+.swiper-container .swiper-pagination,
+.swiper-container .swiper-scrollbar,
+.swiper-container .swiper-scrollbar-drag{display: none;}
+

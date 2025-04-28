@@ -1,0 +1,58 @@
+
+/* main 영역 */
+section{
+    margin: 70px 0;
+}
+h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+
+.sec1{text-align: center; overflow: hidden;}
+.sec1 h3{}
+.sec1 p{font-size: 1rem; padding:0 30px 30px 30px; line-height: 1.4rem;}
+.sec1 .img_box div{margin-bottom: 10px;}
+.sec1 .img_box ul{width: 100%; display: flex; justify-content: space-between; gap: 2%;}
+.sec1 .img_box ul li{width: 24%;}
+.sec1 .img_box ul li img{width: 100%; height: 100%; object-fit: cover; object-position: center;}
+
+
+.sec2{padding:0 30px}
+.sec2 h3{text-align: center;}
+.sec2 p{font-size: 1rem; margin-bottom: 30px; line-height: 1.4rem; text-align: center;}
+.sec2 ul{display: flex; margin-bottom: 20px; justify-content: space-between;}
+.sec2 ul li{width: 47.5%;}
+.sec2 ul li div{margin-bottom: 10px; border-radius: 10px; overflow: hidden;}
+.sec2 ul li img{width: 100%; height: 100%; object-fit: cover; object-position: center;}
+.sec2 ul li dl dt{font-size: 1.2rem; font-weight: 600; margin-bottom: 5px;}
+
+
+.sec3{padding:0 30px}
+.sec3 h3{text-align: center;}
+.sec3 p{font-size: 1rem; margin-bottom: 30px; text-align: center;}
+.sec3 ul{display: flex; justify-content: space-between; margin-bottom: 20px;}
+.sec3 ul li{padding: 8px 12px; border-radius: 20px;}
+.sec3 ul li a{text-align: center;}
+.sec3 ul li a.active{border: 1px solid #be9155;}
+.sec3>div{position: relative; width: 100%; height: 300px; border-radius: 20px; overflow: hidden; background: #ccc;}
+.sec3>div img{width: 100%; height: 100%; object-fit: cover; object-position: center;}
+.sec3 div div{width: 100%; position: absolute; top: 30%; left: 50%; transform: translateX(-50%);}
+.sec3 div div h4{font-size: 1.5rem; text-align: center;}
+.sec3 div div p{margin: 10px 20px 30px 20px;}
+.sec3 div div a{text-align: center;}
+
+
+.sec4{background: #ccc; padding: 0 30px;}
+.sec4 h3{padding-top: 20px; text-align: center;}
+.sec4>p{text-align: center; margin-bottom: 20px;}
+.sec4 .mySwiper2{width: 100%; margin: 0 auto; padding-bottom: 40px; touch-action: pan-y;}
+.sec4 .mySwiper2 .slide{background: #fff; border-radius: 15px; margin: 0 auto;}
+.sec4 .mySwiper2 .swiper-pagination .swiper-pagination-bullet{width: 40px; border-radius: 10px;
+    height: 7px;}
+
+.sec4 .mySwiper2 .slide div{width: 90%; background: #666; margin: 30px auto;}
+.sec4 .mySwiper2 .slide dl{padding: 0 30px 40px 30px;}
+.sec4 .mySwiper2 .slide dl dt{font-size: 1.4rem; font-weight: 600; margin-bottom: 5px;}
+.sec4 .mySwiper2 .slide dl dd{color: #555;}
