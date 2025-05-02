@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../css/Section.css';
 
-// import { getImgUrl } from '@utils/getImgUrl';
+import { getPublicImgUrl, getAssetsImgUrl } from '../../utils/getImgUrl';
 
 function Section1() {
 
@@ -15,7 +15,8 @@ function Section1() {
                 <div className='img_box'>
                     <div>
                         {/* <img src={getImgUrl('/images','sec1_1.jpg')} alt="비주얼이미지2" /> */}
-                        <img src="../public/images/sec1_1.jpg" alt="" />
+                        {/* <img src="../public/images/sec1_1.jpg" alt="" /> */}
+                        <img src={getAssetsImgUrl('sec1_1')} alt="" />
                     </div>
                     <ul>
                         {/* <li><img src={require("../public/images/sec1_1_thum.jpg")} alt="" /></li> */}
