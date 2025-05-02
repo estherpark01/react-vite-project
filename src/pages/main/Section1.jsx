@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../css/Section.css';
-
-import { getPublicImgUrl, getAssetsImgUrl } from '../../utils/getImgUrl';
+import { getAssetsImgUrl } from '../../utils/getImgUrl';
 
 function Section1() {
 
+    
     return (
         <section className='sec1'>
                 <h3>예절원 이야기</h3>
@@ -21,10 +21,10 @@ function Section1() {
                     <ul>
                         {/* <li><img src={require("../public/images/sec1_1_thum.jpg")} alt="" /></li> */}
                         {/* <li><img src={getImgUrl('/images','sec1_1_thum')} alt="비주얼이미지1" /></li> */}
-                        <li><img src="../public/images/sec1_1_thum.jpg" alt="" /></li>
-                        <li><img src="../public/images/sec1_2_thum.jpg" alt="" /></li>
-                        <li><img src="../public/images/sec1_3_thum.jpg" alt="" /></li>
-                        <li><img src="../public/images/sec1_4_thum.jpg" alt="" /></li>
+                        <li><img src={getAssetsImgUrl('sec1_1_thum')} alt="" /></li>
+                        <li><img src={getAssetsImgUrl('sec1_2_thum')} alt="" /></li>
+                        <li><img src={getAssetsImgUrl('sec1_3_thum')} alt="" /></li>
+                        <li><img src={getAssetsImgUrl('sec1_4_thum')} alt="" /></li>
                     </ul>
                 </div>
             </section>
