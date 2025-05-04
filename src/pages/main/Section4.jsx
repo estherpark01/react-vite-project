@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../css/Section.css';
+import { getAssetsImgUrl } from '../../utils/getImgUrl';
 
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';

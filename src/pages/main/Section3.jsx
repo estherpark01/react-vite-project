@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../css/Section.css';
+import { getAssetsImgUrl } from '../../utils/getImgUrl';
 
 // import { getImgUrl } from '../../utils/getImgUrl';
 
