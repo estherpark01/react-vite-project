@@ -3,8 +3,6 @@ import '../../css/Section.css';
 import { getAssetsImgUrl } from '../../utils/getImgUrl';
 
 
-// import { getImgUrl } from '../../utils/getImgUrl';
-
 
 function Section2() {
 
@@ -17,7 +15,7 @@ function Section2() {
                 <ul>
                     <li>
                         <div>
-                            <img src="../public/images/sec2_1.jpg" alt="" />
+                            <img src={getAssetsImgUrl('sec2_1')} alt="" />
                         </div>
                         <dl>
                             <dt>전통성년례</dt>
@@ -26,7 +24,7 @@ function Section2() {
                     </li>
                     <li>
                         <div>
-                            <img src="../public/images/sec2_2.jpg" alt="" />
+                            <img src={getAssetsImgUrl('sec2_2')} alt="" />
                         </div>
                         <dl>
                             <dt>전통혼례</dt>
